@@ -41,7 +41,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/js01ltedcm/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
     vendor/samsung/js01ltedcm/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
     vendor/samsung/js01ltedcm/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/vendor/lib/rfsa/adsp/libscveT2T_skel.so \
-    vendor/samsung/js01ltedcm/proprietary/vendor/firmware/bcm4335_V0105.0486.hcd:system/vendor/firmware/bcm4335_V0105.0486.hcd \
+    vendor/samsung/js01ltedcm/proprietary/vendor/firmware/bcm4335_V0105.0607.hcd:system/vendor/firmware/bcm4335_V0105.0607.hcd \
     vendor/samsung/js01ltedcm/proprietary/etc/C13QL_s5k3l2xx_module_info.xml:system/etc/C13QL_s5k3l2xx_module_info.xml \
     vendor/samsung/js01ltedcm/proprietary/etc/C13QS_imx135_module_info.xml:system/etc/C13QS_imx135_module_info.xml \
     vendor/samsung/js01ltedcm/proprietary/etc/D13QL_s5k3l2xx_module_info.xml:system/etc/D13QL_s5k3l2xx_module_info.xml \
@@ -361,7 +361,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/js01ltedcm/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/samsung/js01ltedcm/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so \
     vendor/samsung/js01ltedcm/proprietary/lib/hw/sensorhubs.msm8974.so:system/lib/hw/sensorhubs.msm8974.so \
-    vendor/samsung/js01ltedcm/proprietary/lib/libsensirion_h_11.so:system/lib/libsensirion_h_11.so \
+    vendor/samsung/js01ltedcm/proprietary/lib/libsensirion_h_13.so:system/lib/libsensirion_h_13.so \
     vendor/samsung/js01ltedcm/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/samsung/js01ltedcm/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/samsung/js01ltedcm/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
