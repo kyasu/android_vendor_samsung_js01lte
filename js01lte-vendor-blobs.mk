@@ -308,6 +308,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/js01lte/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/samsung/js01lte/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/samsung/js01lte/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
+    vendor/samsung/js01lte/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/samsung/js01lte/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/samsung/js01lte/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/samsung/js01lte/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
