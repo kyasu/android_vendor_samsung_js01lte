@@ -149,7 +149,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/js01lte/proprietary/lib/D13QS_libchromatix_imx135_uhd_video.so:system/lib/D13QS_libchromatix_imx135_uhd_video.so \
     vendor/samsung/js01lte/proprietary/lib/D13QS_libchromatix_imx135_zslshot.so:system/lib/D13QS_libchromatix_imx135_zslshot.so \
     vendor/samsung/js01lte/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
-    vendor/samsung/js01lte/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
     vendor/samsung/js01lte/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/samsung/js01lte/proprietary/lib/hw/sensorhubs.msm8974.so:system/lib/hw/sensorhubs.msm8974.so \
     vendor/samsung/js01lte/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so \
