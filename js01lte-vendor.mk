@@ -1,4 +1,5 @@
 # Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -287,6 +288,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/js01lte/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/samsung/js01lte/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/samsung/js01lte/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
+    vendor/samsung/js01lte/proprietary/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so \
+    vendor/samsung/js01lte/proprietary/vendor/lib/libaptXScheduler.so:system/vendor/lib/libaptXScheduler.so \
     vendor/samsung/js01lte/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/samsung/js01lte/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
     vendor/samsung/js01lte/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
