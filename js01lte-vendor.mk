@@ -60,7 +60,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/js01lte/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
     vendor/samsung/js01lte/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
     vendor/samsung/js01lte/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
+    vendor/samsung/js01lte/proprietary/etc/wifi/nvram_mfg.txt_muratafem1:system/etc/wifi/nvram_mfg.txt_muratafem1 \
     vendor/samsung/js01lte/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
+    vendor/samsung/js01lte/proprietary/etc/wifi/nvram_net.txt_muratafem1:system/etc/wifi/nvram_net.txt_muratafem1 \
     vendor/samsung/js01lte/proprietary/lib/C13QL_libTsAe.so:system/lib/C13QL_libTsAe.so \
     vendor/samsung/js01lte/proprietary/lib/C13QL_libTsAf.so:system/lib/C13QL_libTsAf.so \
     vendor/samsung/js01lte/proprietary/lib/C13QL_libTs_J_Accm.so:system/lib/C13QL_libTs_J_Accm.so \
