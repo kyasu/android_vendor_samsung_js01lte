@@ -43,11 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/js01lte/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
     vendor/samsung/js01lte/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
     vendor/samsung/js01lte/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
-    vendor/samsung/js01lte/proprietary/etc/felica/common.cfg:system/etc/felica/common.cfg \
-    vendor/samsung/js01lte/proprietary/etc/felica/mfc_falp.cfg:system/etc/felica/mfc_falp.cfg \
-    vendor/samsung/js01lte/proprietary/etc/felica/mfc_push.cfg:system/etc/felica/mfc_push.cfg \
-    vendor/samsung/js01lte/proprietary/etc/felica/mfm.cfg:system/etc/felica/mfm.cfg \
-    vendor/samsung/js01lte/proprietary/etc/felica/mfs.cfg:system/etc/felica/mfs.cfg \
     vendor/samsung/js01lte/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
     vendor/samsung/js01lte/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
     vendor/samsung/js01lte/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
@@ -376,7 +371,33 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/js01lte/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/samsung/js01lte/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
 
+## FeliCa
+PRODUCT_COPY_FILES += \
+    vendor/samsung/js01lte/proprietary/felica/app/MobileFeliCaClient.apk:system/app/MobileFeliCaClient/MobileFeliCaClient.apk \
+    vendor/samsung/js01lte/proprietary/felica/app/MobileFeliCaMenuApp.apk:system/app/MobileFeliCaMenuApp/MobileFeliCaMenuApp.apk \
+    vendor/samsung/js01lte/proprietary/felica/app/MobileFeliCaSettingApp.apk:system/app/MobileFeliCaSettingApp/MobileFeliCaSettingApp.apk \
+    vendor/samsung/js01lte/proprietary/felica/app/MobileFeliCaWebPluginBoot.apk:system/app/MobileFeliCaWebPluginBoot/MobileFeliCaWebPluginBoot.apk \
+    vendor/samsung/js01lte/proprietary/felica/bin/mfdp:system/bin/mfdp \
+    vendor/samsung/js01lte/proprietary/felica/bin/mfsc:system/bin/mfsc \
+    vendor/samsung/js01lte/proprietary/felica/etc/felica/common.cfg:system/etc/felica/common.cfg \
+    vendor/samsung/js01lte/proprietary/felica/etc/felica/mfc_falp.cfg:system/etc/felica/mfc_falp.cfg \
+    vendor/samsung/js01lte/proprietary/felica/etc/felica/mfc_push.cfg:system/etc/felica/mfc_push.cfg \
+    vendor/samsung/js01lte/proprietary/felica/etc/felica/mfm.cfg:system/etc/felica/mfm.cfg \
+    vendor/samsung/js01lte/proprietary/felica/etc/felica/mfs.cfg:system/etc/felica/mfs.cfg \
+    vendor/samsung/js01lte/proprietary/felica/etc/osaifu/osaifu.cfg:system/etc/osaifu/osaifu.cfg \
+    vendor/samsung/js01lte/proprietary/felica/lib/libcordon.so:system/lib/libcordon.so \
+
+## snfc
+PRODUCT_COPY_FILES += \
+    vendor/samsung/js01lte/proprietary/snfc/etc/snfc/auto_polling.cfg:system/etc/snfc/auto_polling.cfg \
+    vendor/samsung/js01lte/proprietary/snfc/etc/snfc/rf.cfg:system/etc/snfc/rf.cfg \
+    vendor/samsung/js01lte/proprietary/snfc/lib/libnfc_sony.so:system/lib/libnfc_sony.so \
+    vendor/samsung/js01lte/proprietary/snfc/lib/libnfc_sony_jni.so:system/lib/libnfc_sony_jni.so \
+    vendor/samsung/js01lte/proprietary/snfc/lib/libnfc_sony_ndef.so:system/lib/libnfc_sony_ndef.so
+
+
 PRODUCT_PACKAGES += \
     libmm-abl \
     libtime_genoff \
-    TimeService
+    TimeService \
+    FeliCaLock
