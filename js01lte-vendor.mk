@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/js01lte/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/samsung/js01lte/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/samsung/js01lte/proprietary/bin/rfs_access:system/bin/rfs_access \
-    vendor/samsung/js01lte/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/js01lte/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/samsung/js01lte/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/samsung/js01lte/proprietary/bin/time_daemon:system/bin/time_daemon \
@@ -235,11 +234,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/js01lte/proprietary/lib/libmmqjpeg_codec.so:system/lib/libmmqjpeg_codec.so \
     vendor/samsung/js01lte/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/samsung/js01lte/proprietary/lib/libqomx_jpegenc.so:system/lib/libqomx_jpegenc.so \
-    vendor/samsung/js01lte/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-    vendor/samsung/js01lte/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/samsung/js01lte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
-    vendor/samsung/js01lte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-    vendor/samsung/js01lte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
+    vendor/samsung/js01lte/proprietary/vendor/lib/libsec-ril.so:system/vendor/lib/libsec-ril.so \
     vendor/samsung/js01lte/proprietary/lib/libsensirion_h_13.so:system/lib/libsensirion_h_13.so \
     vendor/samsung/js01lte/proprietary/lib/libvdis.so:system/lib/libvdis.so \
     vendor/samsung/js01lte/proprietary/vendor/firmware/bcm4335_V0105.0607.hcd:system/vendor/firmware/bcm4335_V0105.0607.hcd \
