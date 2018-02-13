@@ -31,17 +31,17 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/js01lte/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/samsung/js01lte/proprietary/vendor/cameradata/datapattern_420sp.yuv:system/vendor/cameradata/datapattern_420sp.yuv \
     vendor/samsung/js01lte/proprietary/vendor/cameradata/datapattern_front_420sp.yuv:system/vendor/cameradata/datapattern_front_420sp.yuv \
-    vendor/samsung/js01lte/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
+    vendor/samsung/js01lte/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:system/vendor/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/samsung/js01lte/proprietary/vendor/etc/C13QL_s5k3l2xx_module_info.xml:system/vendor/etc/C13QL_s5k3l2xx_module_info.xml \
     vendor/samsung/js01lte/proprietary/vendor/etc/C13QS_imx135_module_info.xml:system/vendor/etc/C13QS_imx135_module_info.xml \
     vendor/samsung/js01lte/proprietary/vendor/etc/D13QL_s5k3l2xx_module_info.xml:system/vendor/etc/D13QL_s5k3l2xx_module_info.xml \
     vendor/samsung/js01lte/proprietary/vendor/etc/D13QS_imx135_module_info.xml:system/vendor/etc/D13QS_imx135_module_info.xml \
-    vendor/samsung/js01lte/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
-    vendor/samsung/js01lte/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
-    vendor/samsung/js01lte/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
-    vendor/samsung/js01lte/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
-    vendor/samsung/js01lte/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
-    vendor/samsung/js01lte/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
+    vendor/samsung/js01lte/proprietary/vendor/etc/acdbdata/General_cal.acdb:system/vendor/etc/acdbdata/General_cal.acdb \
+    vendor/samsung/js01lte/proprietary/vendor/etc/acdbdata/Global_cal.acdb:system/vendor/etc/acdbdata/Global_cal.acdb \
+    vendor/samsung/js01lte/proprietary/vendor/etc/acdbdata/Handset_cal.acdb:system/vendor/etc/acdbdata/Handset_cal.acdb \
+    vendor/samsung/js01lte/proprietary/vendor/etc/acdbdata/Hdmi_cal.acdb:system/vendor/etc/acdbdata/Hdmi_cal.acdb \
+    vendor/samsung/js01lte/proprietary/vendor/etc/acdbdata/Headset_cal.acdb:system/vendor/etc/acdbdata/Headset_cal.acdb \
+    vendor/samsung/js01lte/proprietary/vendor/etc/acdbdata/Speaker_cal.acdb:system/vendor/etc/acdbdata/Speaker_cal.acdb \
     vendor/samsung/js01lte/proprietary/vendor/etc/felica/common.cfg:system/vendor/etc/felica/common.cfg \
     vendor/samsung/js01lte/proprietary/vendor/etc/felica/mfc_falp.cfg:system/vendor/etc/felica/mfc_falp.cfg \
     vendor/samsung/js01lte/proprietary/vendor/etc/felica/mfc_push.cfg:system/vendor/etc/felica/mfc_push.cfg \
