@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/js01lte/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/samsung/js01lte/proprietary/vendor/bin/ks:system/vendor/bin/ks \
     vendor/samsung/js01lte/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
-    vendor/samsung/js01lte/proprietary/vendor/bin/mpdecision:system/vendor/bin/mpdecision \
     vendor/samsung/js01lte/proprietary/vendor/bin/qcks:system/vendor/bin/qcks \
     vendor/samsung/js01lte/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \
     vendor/samsung/js01lte/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
@@ -150,7 +149,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/js01lte/proprietary/vendor/lib/D13QS_libchromatix_imx135_zslshot.so:system/vendor/lib/D13QS_libchromatix_imx135_zslshot.so \
     vendor/samsung/js01lte/proprietary/vendor/lib/hw/camera.vendor.msm8974.so:system/vendor/lib/hw/camera.vendor.msm8974.so \
     vendor/samsung/js01lte/proprietary/vendor/lib/hw/sensorhubs.msm8974.so:system/vendor/lib/hw/sensorhubs.msm8974.so \
-    vendor/samsung/js01lte/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
+    vendor/samsung/js01lte/proprietary/vendor/lib/hw/sensors.vendor.msm8974.so:system/vendor/lib/hw/sensors.vendor.msm8974.so \
     vendor/samsung/js01lte/proprietary/vendor/lib/libTsAe.so:system/vendor/lib/libTsAe.so \
     vendor/samsung/js01lte/proprietary/vendor/lib/libTsAf.so:system/vendor/lib/libTsAf.so \
     vendor/samsung/js01lte/proprietary/vendor/lib/libTs_J_Accm.so:system/vendor/lib/libTs_J_Accm.so \
@@ -233,6 +232,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/js01lte/proprietary/vendor/lib/libsec-ril.so:system/vendor/lib/libsec-ril.so \
     vendor/samsung/js01lte/proprietary/vendor/lib/libsensirion_h_13.so:system/vendor/lib/libsensirion_h_13.so \
     vendor/samsung/js01lte/proprietary/vendor/lib/libvdis.so:system/vendor/lib/libvdis.so \
+    vendor/samsung/js01lte/proprietary/vendor/bin/mpdecision:system/vendor/bin/mpdecision \
     vendor/samsung/js01lte/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
     vendor/samsung/js01lte/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw \
     vendor/samsung/js01lte/proprietary/vendor/firmware/bcm4335_V0105.0607.hcd:system/vendor/firmware/bcm4335_V0105.0607.hcd \
